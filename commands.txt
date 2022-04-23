@@ -1,0 +1,500 @@
+   33  mvn package
+   34  mvn package
+   35  git branch
+   36  git checkout abc
+   37  ls
+   38  git checkout feature
+   39  ls
+   40  git log --oneline
+   41  git checkout abc
+   42  git log --oneline
+   43  git checkout -b xyz
+   44  git checkout newbr
+   45  git rebase feature
+   46  git log --oneline
+   47  git checkout abc
+   48  git merge feature
+   49  git log --oneline
+   50  git log --oneline
+   51  clr
+   52  git branch
+   53  git checkout master
+   54  ls
+   55  git checkout -b dev
+   56  ls
+   57  touch 9.txt
+   58  git log --oneline
+   59  git add .
+   60  git commit -m "added 9.txt"
+   61  git log --oneline
+   62  touch 10.txt
+   63  git add .
+   64  git commit -m "added 10.txt"
+   65  touch 11.txt
+   66  git add .
+   67  git commit -m "added 11.txt"
+   68  git log --oneline
+   69  git log --oneline
+   70  git merge dev
+   71  git log --oneline
+   72  git status
+   73  git push -u origin master
+   74  git log --oneline
+   75  git branch
+   76  git cheeckout feature
+   77  git checkout feature
+   78  git log --oneline
+   79  ls
+   80  touch file1
+   81  touch file2
+   82  git add file1
+   83  git status
+   84  git commit -m "added file1"
+   85  git add file2
+   86  git commit -m "added file2"
+   87  git log --oneline
+   88  git cherry-pick 18a93b2 master
+   89  git checkout master
+   90  git log --oneline
+   91  git checkout feature
+   92  git cherry-pick --allow-empty
+   93  git commit --allow-empty
+   94  git commit --allow-empty
+   95  git cherry-pick 18a93b2 master
+   96  git cherry-pick --continue
+   97  git checkout master
+   98  git log --oneline
+   99  git cherry-pick 18a93b2 feature
+  100  git log --oneline
+  101  git checkout feature
+  102  git log --oneline
+  103  git checkout master
+  104  git log --oneline
+  105  git checkout feature
+  106  touch file3
+  107  git add .
+  108  git checckout -m "added file3"
+  109  git log --oneline
+  110  git checkout -m "added file3"
+  111  git log --oneline
+  112  git status
+  113  git commit -m "added file3"
+  114  git log --oneline
+  115  3962c293962c29
+  116  git checkout master
+  117  git cherry-pick 3962c29 feature
+  118  git log --oneline
+  119  ls
+  120  ls
+  121  git log --oneline
+  122  git tag 7c09577
+  123  git log --oneline
+  124  git tag v2.3.0
+  125  git log --oneline
+  126  git tag prod
+  127  git log --oneline
+  128  git checkout 192cd74
+  129  git log --oneline
+  130  ls
+  131  git checkout 6478bf8
+  132  ls
+  133  cat 1.txt
+  134  git checkout 192cd74
+  135  git log --oneline
+  136  ls
+  137  git tag v1.2.0
+  138  git checkout 7c09577
+  139  git tag
+  140  git checkout prod
+  141  git checkout master
+  142  git history
+  143  history
+  144  git log --oneline --decorate
+  145  git log --oneline
+  146  # git log --decorate
+  147  git log --oneline --decorate
+  148  history >> commands15/06
+  149  history >> commands
+  150  cd ~
+  151  java -version
+  152  echo $JAVA_HOME
+  153  echo $M2_HOME
+  154  echo $M2
+  155  mvn archetype:generate
+  156  mvn compile
+  157  mvn compile
+  158  cd myjio
+  159  mvn compile
+  160  mvn package
+  161  dotnet --info
+  162  dotnet --version
+  163  mvn clean
+  164  mvn clean
+  165  git clone https://github.com/sreenathuser/MavenIn28Minutes.git
+  166  ls
+  167  cd MavenIn28Minutes
+  168  git init
+  169  ls
+  170  cd 4.web-application-with-maven
+  171  ls
+  172  mvn compile
+  173  mvn package
+  174  git clone https://github.com/SreenathKurapati/ES-HR-Interfaces.git
+  175  git clone https://github.com/sreenathuser/Azure-Function.git
+  176  git clone https://github.com/sreenathuser/Azure-Function.git
+  177  git clone https://github.com/sreenathuser/Azure-Function.git
+  178  cd Azure-Function
+  179  ls
+  180  rm *
+  181  cd ..
+  182  pwd
+  183  cd Azure-Function
+  184  pwd
+  185  cd ..
+  186  rm -r /c/Users/sreenath.kurapati/Desktop/Azure-Function
+  187  rm -r /c/Users/sreenath.kurapati/Desktop/Azure-Function/*
+  188  rm /c/Users/sreenath.kurapati/Desktop/Azure-Function/*
+  189  rm /c/Users/sreenath.kurapati/Desktop/Azure-Function/*
+  190  rm -rfv /c/Users/sreenath.kurapati/Desktop/Azure-Function/*
+  191  cd Azure-Function
+  192  ls
+  193  git status
+  194  git push
+  195  dotnet build
+  196  ls
+  197  cd ../..
+  198  git clone https://github.com/sreenathuser/Azure-Function.git
+  199  cd Azure-Function
+  200  ls
+  201  ll
+  202  ll -a
+  203  git status
+  204  git add .
+  205  git commit -m "deleted all files"
+  206  git push -u origin master
+  207  git status
+  208  git add .
+  209  git commit -m "added ES-HR-dsg files"
+  210  git push -u origin master
+  211  ls
+  212  git status
+  213  git add .
+  214  git commit -m "changed deployjson.json"
+  215  git push -u origin master
+  216  git status
+  217  git push
+  218  git pull
+  219  git push
+  220  git pull
+  221  git status
+  222  git add -a
+  223  git add .
+  224  git push
+  225  git push -u origin master
+  226  git commit -m "added azuredepoly.json"
+  227  git push
+  228  git pull
+  229  mvn -version
+  230  mvn package
+  231  mvn clean package
+  232  mvn clean
+  233  mvn package
+  234  sudo su -
+  235  user
+  236  mvn package
+  237  mvn package
+  238  mvn clean
+  239  git status
+  240  git add .
+  241  git status
+  242  git branch
+  243  ls
+  244  ls -l
+  245  touch a.txt
+  246  git status
+  247  git branch
+  248  git checkout -b develop
+  249  git branch -d develop
+  250  git branch
+  251  git status
+  252  git branch -b develop
+  253  git checkout -b develop
+  254  ls
+  255  git status
+  256  git add .
+  257  git status
+  258  git commit -m "added a.txt"
+  259  git status
+  260  git checkout master 
+  261  git status
+  262  ls
+  263  java -version
+  264  echo $JAVA_HOME
+  265  echo $JAVA_HOME
+  266  echo $JAVA_HOME
+  267  echo $JAVA_HOME
+  268  java -version
+  269  java -version
+  270  java -version
+  271  javac -version
+  272  java -version
+  273  javac -version
+  274  java -version
+  275  java -version
+  276  java -version
+  277  java -version
+  278  java -version
+  279  git clone https://github.com/aws-samples/eb-tomcat-snakes.git azure-devops
+  280  cd azure-devops
+  281  ll
+  282  ls -a
+  283  rm -f .git
+  284  rm -RF .git
+  285  rm -d .git
+  286  rm -d -r .git
+  287  ls -a
+  288  rm -d .git
+  289  rm -d -r .git
+  290  ls -a
+  291  git init
+  292  git status
+  293  git add .
+  294  git commit -m "java code"
+  295  git push origin master
+  296  git init
+  297  git remote add origin git remote add origin https://kurapatisreenath@dev.azure.com/kurapatisreenath/Java%20Proj/_git/Java%20Proj
+  298  git push origin master
+  299  git remote add origin https://kurapatisreenath@dev.azure.com/kurapatisreenath/Java%20Proj/_git/Java%20Proj
+  300  git push origin master
+  301  git checkout -b dev
+  302  code .
+  303  git status
+  304  git add . && git commit -m "changed src/default.jsp file"
+  305  git push origin dev
+  306  mvn clean test
+  307  git clone https://github.com/dsg-tech/tf-module-azure-aks.git
+  308  git add
+  309  git init
+  310  ls
+  311  cat 11.Aadhar
+  312  cat 11.Aadhar.pdf
+  313  64;1;2;4;6;9;15;21;22;28;29c64;1;2;4;6;9;15;21;22;28;29c64;1;2;4;6;9;15;21;22;28;29c64;1;2;4;6;9;15;21;22;28;29c64;1;2;4;6;9;15;21;22;28;29c
+  314  git clone https://github.com/sreenathuser/user.git
+  315  cd user
+  316  ls
+  317  git status
+  318  git clone https://github.com/dsg-tech/ES-HR-Interfaces.git
+  319  git clone https://github.com/dsg-tech/ES-HR-Interfaces.git
+  320  cd haridocs
+  321  cd hari docs
+  322  cd "hari docs"
+  323  pwd
+  324  mvn package
+  325  git clone https://github.com/sreenathuser/myhome.git
+  326  git clone https://github.com/sreenathuser/myhome.git
+  327  cd home
+  328  cd myhome
+  329  ls
+  330  git status
+  331  git add 1.txt
+  332  git status
+  333  git add 1.txt
+  334  git add 1
+  335  git add -1.txt
+  336  git add *
+  337  git status
+  338  vi 1.txt
+  339  git status
+  340  git add 1.txt
+  341  git status
+  342  git commit -m "added 1, 1.txt, 2.txt"
+  343  git status
+  344  git log
+  345  touch 4
+  346  cat 4
+  347  cat 1
+  348  cat 1.txt
+  349  vi 1.txt
+  350  cat 1.txt
+  351  vi 1.txt
+  352  cat 1.txt
+  353  git status
+  354  git add .
+  355  git status
+  356  git commit -m "added few files"
+  357  git log -oneline
+  358  git log --oneline
+  359  git log
+  360  git status
+  361  git push 
+  362  git status
+  363  git add 1.txt 1.txt.txt
+  364  git status
+  365  git commit -m "deleted 2 files"
+  366  git push 
+  367  git add .
+  368  git status
+  369  git commit -m "deleted 3 files"
+  370  git push 
+  371  ls
+  372  git branch dev
+  373  git branch
+  374  ls
+  375  git status
+  376  git add .
+  377  git status
+  378  git commit -m "added all files"
+  379  git push 
+  380  ls
+  381  git status
+  382  ls
+  383  git checkout dev1
+  384  git checkout -b dev1
+  385  git branch
+  386  ls
+  387  touch file1
+  388  git status
+  389  git checkout master
+  390  git status
+  391  git checkout dev1
+  392  git status
+  393  git add .
+  394  git status
+  395  git checkout master
+  396  git status
+  397  git checkout dev1
+  398  git commit -m "file1 added"
+  399  git status
+  400  ls
+  401  git checkout master
+  402  git status
+  403  ls
+  404  git checkout dev1
+  405  git diff master dev1
+  406  git checkout master
+  407  ls
+  408  git merge dev1
+  409  git status
+  410  ls
+  411  git branch
+  412  git push
+  413  git checkout dev1
+  414  git push
+  415  git push -u origin hari
+  416  git push -u origin dev1
+  417  mvn clean
+  418  mvn package
+  419  mvn clean
+  420  mvn compile
+  421  apt install tree
+  422  apt get install tree
+  423  apt-get install tree
+  424  git log --oneline
+  425  git checkout 07410b8
+  426  git tag v1.0.0
+  427  git tag qa
+  428  git checkout master
+  429  git log --oneline
+  430  git clone https://github.com/pied-piper-inc/build-2021.gitDDDDDDDDDDDDDDDDD
+  431  git clone https://github.com/pied-piper-inc/docker-test.git
+  432  git clone https://github.com/sreenathuser/actions-workflow-samples.git
+  433  git clone https://github.com/sreenathuser/Notes.git
+  434  cd notes
+  435  git add .
+  436  git commit -m "Mumshad notes Azure, Azure Devops, K8"
+  437  git push
+  438  git add .
+  439  git clone https://github.com/sreenathmaster/PMMS.git
+  440  git status
+  441  git add .
+  442  git status
+  443  git init
+  444  git status
+  445  git add .
+  446  git status
+  447  git commit -m "all"
+  448  git clone https://github.com/sreenathmaster/PMMS.git
+  449  git clone https://github.com/sreenathmaster/PMMS.git
+  450  git clone https://github.com/sreenathmaster/PMMS.git
+  451  cd pmms
+  452  ls
+  453  git status
+  454  git add
+  455  git add .
+  456  git commit -m "all"
+  457  git push 
+  458  git push
+  459  git push -u origin master
+  460  git push
+  461  git clone https://github.com/sreenathuser/pmms.git
+  462  git status
+  463  git init
+  464  git status
+  465  git clone https://github.com/sreenathuser/dotnetcore-webapp.git
+  466  cd /dotnetcore-webapp
+  467  cd dotnetcore-webapp
+  468  ls
+  469  git status
+  470  git add .
+  471  git commit -m "all"
+  472  git commit -m "all"
+  473  git push -u origin master
+  474  git pull
+  475  git push
+  476  git add .
+  477  git commit -m "added dotnetcore-webapp"
+  478  git push
+  479  git clone https://github.com/sreenathuser/pmms.git
+  480  git clone https://devopsboss369@dev.azure.com/devopsboss369/Products/_git/Products
+  481  git init
+  482  git log
+  483  git ls
+  484  git config
+  485  git clone
+  486  git add
+  487  git status
+  488  git add sreenath
+  489  git init
+  490  echo "sample file" > sreenath
+  491  git branch
+  492  mvn archetype generate
+  493  mvn archetype:generate
+  494  git clone https://github.com/sreenathuser/sumi-devops.git
+  495  git clone https://github.com/sreenathuser/sumi-devops.git
+  496  ls
+  497  cd sumi-devops/
+  498  ls
+  499  touch 1.txt
+  500  ls
+  501  git status
+  502  git add .
+  503  git status
+  504  git commit -m "added module changes"
+  505  git status
+  506  git push -u origin master
+  507  git status
+  508  ls
+  509  touch 2.txt
+  510  git add 2.txt
+  511  git status
+  512  touch 3.txt
+  513  git status
+  514  git commit -m "added files"
+  515  git push
+  516  git branch
+  517  ls
+  518  git pull
+  519  git branch
+  520  git branch -b
+  521  git branch -a
+  522  git checkout -b sumi
+  523  git branch
+  524  git branch -a
+  525  ls
+  526  touch b.txt
+  527  git add .
+  528  git commit -m "added b.txt"
+  529  git push -u origin develop
+  530  git push -u origin sumi
+  531  git branch -a
+  532  history >> commands.txt
